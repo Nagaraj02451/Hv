@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Bold.eot');
+    src: local('Blacklist Bold'), local('Blacklist-Bold'),
+        url('Blacklist-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Bold.woff2') format('woff2'),
+        url('Blacklist-Bold.woff') format('woff'),
+        url('Blacklist-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Black.eot');
+    src: local('Blacklist Black'), local('Blacklist-Black'),
+        url('Blacklist-Black.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Black.woff2') format('woff2'),
+        url('Blacklist-Black.woff') format('woff'),
+        url('Blacklist-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-BlackItalic.eot');
+    src: local('Blacklist Black Italic'), local('Blacklist-BlackItalic'),
+        url('Blacklist-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-BlackItalic.woff2') format('woff2'),
+        url('Blacklist-BlackItalic.woff') format('woff'),
+        url('Blacklist-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Regular.eot');
+    src: local('Blacklist Regular'), local('Blacklist-Regular'),
+        url('Blacklist-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Regular.woff2') format('woff2'),
+        url('Blacklist-Regular.woff') format('woff'),
+        url('Blacklist-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Light.eot');
+    src: local('Blacklist Light'), local('Blacklist-Light'),
+        url('Blacklist-Light.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Light.woff2') format('woff2'),
+        url('Blacklist-Light.woff') format('woff'),
+        url('Blacklist-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-ExtraLight.eot');
+    src: local('Blacklist Extra Light'), local('Blacklist-ExtraLight'),
+        url('Blacklist-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-ExtraLight.woff2') format('woff2'),
+        url('Blacklist-ExtraLight.woff') format('woff'),
+        url('Blacklist-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-SemiBoldItalic.eot');
+    src: local('Blacklist Semi Bold Italic'), local('Blacklist-SemiBoldItalic'),
+        url('Blacklist-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-SemiBoldItalic.woff2') format('woff2'),
+        url('Blacklist-SemiBoldItalic.woff') format('woff'),
+        url('Blacklist-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-MediumItalic.eot');
+    src: local('Blacklist Medium Italic'), local('Blacklist-MediumItalic'),
+        url('Blacklist-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-MediumItalic.woff2') format('woff2'),
+        url('Blacklist-MediumItalic.woff') format('woff'),
+        url('Blacklist-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-ThinItalic.eot');
+    src: local('Blacklist Thin Italic'), local('Blacklist-ThinItalic'),
+        url('Blacklist-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-ThinItalic.woff2') format('woff2'),
+        url('Blacklist-ThinItalic.woff') format('woff'),
+        url('Blacklist-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-SemiBold.eot');
+    src: local('Blacklist Semi Bold'), local('Blacklist-SemiBold'),
+        url('Blacklist-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-SemiBold.woff2') format('woff2'),
+        url('Blacklist-SemiBold.woff') format('woff'),
+        url('Blacklist-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Medium.eot');
+    src: local('Blacklist Medium'), local('Blacklist-Medium'),
+        url('Blacklist-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Medium.woff2') format('woff2'),
+        url('Blacklist-Medium.woff') format('woff'),
+        url('Blacklist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-BoldItalic.eot');
+    src: local('Blacklist Bold Italic'), local('Blacklist-BoldItalic'),
+        url('Blacklist-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-BoldItalic.woff2') format('woff2'),
+        url('Blacklist-BoldItalic.woff') format('woff'),
+        url('Blacklist-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-ExtraBoldItalic.eot');
+    src: local('Blacklist Extra Bold Italic'), local('Blacklist-ExtraBoldItalic'),
+        url('Blacklist-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-ExtraBoldItalic.woff2') format('woff2'),
+        url('Blacklist-ExtraBoldItalic.woff') format('woff'),
+        url('Blacklist-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Italic.eot');
+    src: local('Blacklist Italic'), local('Blacklist-Italic'),
+        url('Blacklist-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Italic.woff2') format('woff2'),
+        url('Blacklist-Italic.woff') format('woff'),
+        url('Blacklist-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-ExtraBold.eot');
+    src: local('Blacklist Extra Bold'), local('Blacklist-ExtraBold'),
+        url('Blacklist-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-ExtraBold.woff2') format('woff2'),
+        url('Blacklist-ExtraBold.woff') format('woff'),
+        url('Blacklist-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-ExtraLightItalic.eot');
+    src: local('Blacklist Extra Light Italic'), local('Blacklist-ExtraLightItalic'),
+        url('Blacklist-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-ExtraLightItalic.woff2') format('woff2'),
+        url('Blacklist-ExtraLightItalic.woff') format('woff'),
+        url('Blacklist-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-Thin.eot');
+    src: local('Blacklist Thin'), local('Blacklist-Thin'),
+        url('Blacklist-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-Thin.woff2') format('woff2'),
+        url('Blacklist-Thin.woff') format('woff'),
+        url('Blacklist-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blacklist';
+    src: url('Blacklist-LightItalic.eot');
+    src: local('Blacklist Light Italic'), local('Blacklist-LightItalic'),
+        url('Blacklist-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Blacklist-LightItalic.woff2') format('woff2'),
+        url('Blacklist-LightItalic.woff') format('woff'),
+        url('Blacklist-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

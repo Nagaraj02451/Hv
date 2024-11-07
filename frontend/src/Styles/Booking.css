@@ -1,0 +1,524 @@
+.book1{
+    width: 100%;
+    
+    height: 100%;
+}
+.book11{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    height: 96%;
+
+}
+.book2{
+    height: 70%;
+}
+.book21{
+    width: 100%;
+   display: flex;
+   margin:1vw 0;
+
+}
+.book22{
+    margin-left: 1vw;
+    width: 100%;
+    font-size: 2.6vw;
+    line-height: 2.8vw;
+    font-family: blk300;
+    font-weight: 400;
+    letter-spacing: 1%;
+}
+.book21 img{
+    width: 1.6vw;
+}
+
+
+.book3{
+    width: 100%;
+    display: flex;
+    
+}
+.book4{
+    width: 60%;
+   border-radius: 3px;
+   background-color: #485647;
+   color: #FFF2E2;
+   padding: 2vw ;
+}
+.book41{
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+    font-family: blk300;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-bottom: 1vw;
+
+}
+.book42{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4%;
+}
+
+.book42 ::placeholder{
+    color: #FFF2E2;
+    font-family:axi400;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    letter-spacing: 2%;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.book42 input{
+    color: #FFF2E2;
+    font-family:axi400;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    letter-spacing: 2%;
+    font-weight: 400;
+    width: 21.159vw;
+    height: 2.9vw;
+}
+.book43{
+    width: 100%;
+    height: 2.9vw;
+    border:1px solid #FFF2E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%;  
+    border-radius: 3px;
+  
+}
+.book43 input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.book44{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+
+    
+}
+.book44 input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+.book44a{
+    font-size: 0.65vw;
+    line-height: 0.65vw;
+    margin-top: 1vw;
+}
+.book5{
+    margin: 1vw 0;
+}
+.book51{
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    font-family: blk300;
+    font-weight: 400;
+    letter-spacing: 2%;   
+}
+.book52{
+    display: flex;
+    margin-top: 1vw;
+}
+.book53a{
+    margin-left: 3vw;
+}
+.book54{
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    font-family:axi400;
+}
+.book55{
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    font-family:axi400;
+    margin-top: 0.5vw;
+}
+.book6{
+    margin: 1vw 0;
+}
+.book6a{
+    margin-top: 2vw;
+}
+.book61{
+    font-weight: 700;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    font-family:axi400;
+}
+.book62{
+    font-weight: 400;
+    font-size: 0.8vw;
+    line-height: 0.9vw;
+    font-family:axi400;
+    margin-top: 1vw;
+}
+.book7{
+    width: 37%; 
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.book8{
+    border-radius: 3px;
+
+    padding: 2vw ;
+
+    background-color: #FFF2E2;
+}
+.book81{
+    font-size: 1.563vw;
+    line-height:1.118vw;
+    font-family: blk300;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+.book82{
+    display: flex;
+    margin-bottom: 0.9vw;
+}
+.book83{
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-family:axi400;
+}
+.book84{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-family:axi400;
+    margin-left: 0.3vw;
+}
+.book85{
+    margin-top: 1vw;
+}
+.book86{
+    display: flex;
+    align-items: center;
+}
+.book86a{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+}
+.book86a img{
+    width: 1.4vw;
+}
+.book86b{
+    
+    margin-left: 1vw;
+    font-weight: 400;
+    font-size: 1.1vw;
+    /* line-height: 1.1vw; */
+    font-family:axi400;
+}
+.bookhr1{
+    border: 0.8px solid  #485647;
+    margin-top: 1vw;
+}
+.book87{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5vw;
+}
+.book871{
+    margin-top: 0.5vw;
+}
+.book87a{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-family:axi400;
+}
+.book87b{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-family:axi400;
+}
+.book88{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5vw;
+
+}
+.book88a{
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-family:axi400;
+}
+.book88b{
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-family:axi400;
+}
+.book9{
+    width: 100%;
+    margin-top: 0.3vw;
+}
+.book91{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #B0714E;
+    color: #FFF2E2;
+    border: none;
+    outline: none;
+    height: 3.2vw;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1vw;
+    font-family:axi400;
+    letter-spacing: 2%;
+}
+@media(max-width:600px){
+    .book2{
+        /* border: 1px solid red; */
+        height: 100%;
+        margin-top: 10%;
+    }
+
+    .book21 img{
+
+        width: 26px;
+    }
+    .book22{
+        margin-left: 1vw;
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+        font-family: blk300;
+        font-weight: 400;
+        letter-spacing: 1%;
+    }
+    
+.book3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.book4{
+    height: 100%;
+    width: 100%;
+   border-radius: 3px;
+   background-color: #485647;
+   color: #FFF2E2;
+   padding: 2% ;
+}
+.book41{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: blk300;
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+.book42{
+   display: flex;
+   flex-direction: column;
+   margin-top: 5%;
+}
+.book42 ::placeholder{
+    color: #FFF2E2;
+    font-family:axi400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2%;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.book42 input{
+    color: #FFF2E2;
+    font-family:axi400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2%;
+    font-weight: 400;
+    width: 100%;
+    height: 42px;
+}
+.book44{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.book44a{
+    display: none;
+}
+.book43{
+    width: 100%;
+    height: 42px;
+    border:1px solid #FFF2E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%;  
+    border-radius: 3px;
+    /* margin-top: 5%; */
+  
+}
+.book5{
+    margin: 5% 0; 
+}
+.book51{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: blk300;
+    font-weight: 400;
+    letter-spacing: 2%;   
+}
+.book52{
+    display: flex;
+    margin-top:5%;
+}
+.book54{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book55{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    font-family:axi400;
+    margin-top: 10%;
+}
+.book6{
+    margin: 5% 0;
+}
+.book61{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book62{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-family:axi400;
+    margin-top: 3%;
+}
+.book7{
+    margin-top: 5%;
+    width: 100%; 
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.book8{
+    border-radius: 3px;
+
+    padding:5%  2%;
+
+    background-color: #FFF2E2;
+}
+.book81{
+    font-size: 20px;
+    line-height:14px;
+    font-family: blk300;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.book82{
+    display: flex;
+    margin-bottom: 5%;
+}
+.book83{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book84{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+    margin-left: 0.3vw;
+}
+.book86a img{
+    width: 18px;
+}
+.book86b{
+    
+    margin-left: 1vw;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* line-height: 1.1vw; */
+    font-family:axi400;
+}
+.book87a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book87b{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book88{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5vw;
+
+}
+.book88a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book88b{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:axi400;
+}
+.book9{
+    width: 100%;
+    margin-top: 10%;
+}
+.book91{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #B0714E;
+    color: #FFF2E2;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    font-family:axi400;
+    letter-spacing: 2%;
+}
+}

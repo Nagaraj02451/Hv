@@ -1,0 +1,239 @@
+.hr1{
+    border: 1px solid #FFF2E2 ;
+}
+.fr1{
+        background: url('../../public/Img/fbgc2.svg ');
+        background-position: center;
+        background-repeat:repeat;
+        background-size: cover;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+        height: 100%;
+        width: 100%;
+}
+.fr2{
+    width: 94%;
+    height: 80%;
+    margin-left: 3%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.fr3{
+
+    display: flex;
+    justify-content: space-between;
+}
+.fr4{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.fr4a{
+    color: #E3E7EA;
+    font-size: 3.12vw;
+    line-height: 3.12vw;
+    margin-bottom: 10%;
+    font-family: blk300;
+    font-weight: 300;
+}
+.fr4b{
+    font-size: 1vw;
+    line-height: 1vw;
+    color: #E3E7EA;
+    background-color: transparent;
+    border: 1.5px solid #E3E7EA;
+    width: 13vw;
+    height: 2.9vw;
+    font-family: axi400;
+}
+.iuyrtf87iyug{
+    font-family: blk500;
+    font-size: 1.5vw;
+    line-height:1.5vw ;
+}
+.fr5{
+    width: 24.154vw;
+    height: 28.516vw;
+    background-color: #FFF2E2;
+display: flex;
+justify-content: center;
+}
+
+.mf1{
+    display: none;
+}
+.ufygu{
+    /* border: 1px solid red; */
+    width: 90%;
+    padding-top: 2vw;
+}
+.ufygu select{
+    width: 100%;
+    height: 3.5vw;
+    font-family: axi400;
+    padding: 0 1vw;
+    font-size: 0.9vw;
+    border: 1.5px solid #1E1E1E;
+    background-color: #E3E7EA;
+
+}
+#uy6trf7856{
+    font-size: 0.8vw;
+    font-family: axi400;
+}
+.ufygu p{
+font-size: 1.5vw;
+}
+.uytfdu6ty{
+    display: flex;
+    justify-content: space-between;
+}
+.uytfdu6ty input{
+    width: 10.2vw;
+    margin-top: 1.2vw;
+    height: 3.5vw;
+    font-size: 0.9vw;
+    font-family: axi400;
+    text-align: center;
+    background-color: #E3E7EA;
+    border: 1px solid #141414;
+}
+.uy6trf7856{
+    display: flex;
+    justify-content: space-between;
+}
+.iuy7tf7i{
+    display: flex;
+    column-gap: 1vw;
+}
+.uytedr756fg{
+    background-color: #485647;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5vw;
+    margin-top: 1vw;
+    font-family: axi400;
+    text-decoration: none;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    color: #E3E7EA;
+
+}
+
+.uytrfd6u7tyf{
+    width: 1.4vw;
+    height: 1.4vw;
+    background-color: #D9D9D9;
+   
+}
+.uytrf657fg{
+    width: 1.6vw;
+    height: 1.6vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.2vw;
+    background-color: #485647;
+}
+@media(max-width:600px){
+    .fr1{
+   display: none;
+
+    }
+    .mf1{
+        display: block;
+
+        width: 100%;
+        height: 100%;
+    }
+    .mf2{
+        height: 280px;
+    width: 100%;
+    background: url('../../public/Img/fbgc2.svg ');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+    }
+     .mf21{
+        width: 96%;
+        margin-left: 2%;
+        padding-top: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       height: 96%;
+    } 
+    .mf23{
+        color: #E3E7EA;
+        font-weight: 300;
+
+        font-size: 28px;
+        line-height: 26px;
+        font-family: blk300;
+    }
+    .mf3{
+        width: 100%;
+    }
+    .fr5{
+        width:100%;
+        height:400px;
+        background-color: #FFF2E2;
+    }
+    .mf4{
+        width: 96%;
+        height: 20vh;
+        margin-left: 2%;
+        margin-top: 10%;
+
+    }
+    .iuyrtf87iyug{
+       font-size: 21px;
+       /* color: red; */
+    }
+    .ufygu{
+        width: 95%;
+    }
+    .ufygu p{
+        font-size: 21px;
+        padding-top: 5vw;
+    }
+    .ufygu select{
+        height: 54px;
+        font-size: 13.1PX;
+    }
+    .uytfdu6ty input{
+        width: 145px;
+        height: 53px;
+        font-size: 13.1px;
+        margin-top: 15px;
+    }
+    #uy6trf7856{
+        font-size: 13.1px;
+    }
+    .uytrf657fg{
+        width: 24px;
+        height: 24px;
+        
+    }
+    .uytedr756fg{
+        height: 54px;
+        font-size: 13.1px;
+        column-gap:8px;
+    }
+    .uytrfd6u7tyf{
+        width: 22px;
+        height: 22px;
+
+    }
+}

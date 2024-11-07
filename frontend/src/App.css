@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@font-face{
+  font-family:axi400;
+  src:url( ".../../../public/Fonts/Axiforma/Axiforma/Axiforma-Light.woff");
+}
+
+@font-face{
+  font-family:blk300;
+  src:url( ".../../../public/Fonts/Blacklist/Blacklist-Light.woff");
+}
+a{
+  text-decoration: none;
+}
+.productitteams{
+  /* border: 1px solid red; */
+}
+.innerproductiteam{
+  /* border: 1px solid red; */
+  display: flex;
+  padding-top: 3vw;
+  padding-bottom: 5vw;
+  /* height: 10vh; */
+}
+.ytdfuyt6fu{
+  width: 29vw;
+}
+.yurft768uyg7ui{
+  width: 25%;
+  /* border: 1px solid red; */
+}
+.uytf76rf7uy{
+  width: 66%;
+}
+.yutfu67iyhi{
+  font-family: axi400;
+  font-size: 1.04vw;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.yguftyitu{
+  font-family: axi400;
+  font-size: 1.04vw; 
+  color: #141414;
+}
+.giuytgf76iuy{
+  font-family: blk500;
+  font-size: 1.5vw;
+  color: #141414;
+  padding-top: 0.5vw;
+}
+.yutrfi{
+  text-decoration: underline;
+}
+.iuyf7iyug{
+  padding-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2vw;
+}
+.uytr8767{
+  /* padding-top: 2vw; */
+  font-size: 1.6vw;
+  font-family: axi400;
+}
+.uytr8767 input{
+  border: none;
+  /* font-size: 1.6vw; */
+  cursor: pointer;
+}
+.uytr8767 input:focus{
+  outline: none;
+}
+.yd6try{
+  cursor: pointer;
+}
+@media (max-width:768px) {
+  .yurft768uyg7ui{
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .uytf76rf7uy{
+    width: 100%;
+  }
+  .uytr8767{
+    font-size: 16PX;
+  }
+  .innerproductiteam{
+    /* border: 1px solid red; */
+    display: inline;
+    /* height: 10vh; */
+  }
+  .yutfu67iyhi{
+   font-size: 16px;
+  }
+  .giuytgf76iuy{
+    font-size: 24px;
+  }
+  .yguftyitu{
+    font-size: 16px;
+  }
+  .ytdfuyt6fu{
+    width: 100%;
+  }
+  .innerproductiteam{
+    padding-bottom: 15vh;
+  }
+}

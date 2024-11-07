@@ -1,0 +1,286 @@
+.os1{
+    margin: 0;
+}
+
+
+
+.osb{
+    height: 100vh;
+    width: 100%;
+    background: url('../../public/Img/thirdbgc1.svg');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+}
+.osc{
+    width: 94%;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.os31{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.os32{
+    width: 22vw;
+    height: 5.6vw;
+    margin-bottom: 3%;
+
+}
+.os32 img{
+   width: 100%;
+}
+.os33{
+    font-weight: 400;
+
+    color: #FFF2E2;
+    font-size: 1vw;
+    line-height: 1vw;
+    font-family:axi400;
+    margin-bottom: 3%;
+     text-align: center;
+     text-transform: uppercase;
+}
+.os33a{
+    display: none;
+}
+.os34 button{
+    background: transparent;
+    border: 1.5px solid #FFF2E2;
+    color: #FFF2E2;
+    font-size: 1vw;
+    line-height: 1vw;
+    width: 13vw;
+    height: 2.9vw;
+}
+.os4{
+}
+
+.os4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0;
+}
+.os41{
+    width: 80%;
+}
+.os42{
+    text-align: center;
+    font-size: 2vw;
+    line-height: 2vw;
+    font-family: blk300;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
+.os43{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1vw;
+}
+.os44{
+    width: 48%;
+}
+.os45{
+    border-bottom: 1px solid #b8b8b8;
+    padding: 1vw  0;
+    font-family:axi400;
+    font-size: 1vw;
+    line-height: 1vw;
+    letter-spacing: 1%;
+    font-weight: 400;
+}
+.os5{
+    width: 100%;
+}
+.os51{
+    width: 94%;
+
+    margin-left: 3%;
+}
+
+.os53{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.os53 img{
+    width: 100%;
+    height:100%;
+}
+
+
+.os6{
+    width: 100%;
+    margin: 5vw 0;
+}
+.os61{
+    width: 94%;
+
+    margin-left: 3%;
+}
+.os63{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     column-gap: 2%;
+    width: 100%;
+  margin-top: 3%;
+
+}
+.os64{
+    width: 100%;
+
+}
+.os65{
+    width: 100%;
+}
+.os65 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.os66{
+    width: 100%;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    font-family: blk300;
+    font-weight: 600;
+    letter-spacing: 2%;
+    margin-top: 2vw;
+}
+.os67{
+    width: 100%;
+    font-family:axi400;
+    font-size: 1vw;
+    line-height: 1.3vw;
+    letter-spacing: 2%;
+    margin-top: 1vw;
+}
+
+@media(max-width:600px){
+ 
+.os31{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.os32{
+    width: 194px;
+    height: 50px;
+    margin-bottom: 3%;
+
+}
+.os33{
+    display: none;
+}
+.os33a{
+    display: block;
+    color: #FFF2E2;
+    font-size: 15px;
+    line-height: 16px;
+    font-family:axi400;
+    margin-bottom: 3%;
+     text-align: center;
+     text-transform: uppercase;
+}
+.os34 button{
+    background: transparent;
+    border: 1.5px solid #FFF2E2;
+    color: #FFF2E2;
+    font-size: 15px;
+    line-height: 16px;
+    width: 200px;
+    height: 45px;
+}
+.os4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+.os41{
+    width: 96%;
+    margin-left: 2%;
+
+}
+
+.os42{
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: blk300;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
+.os43{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1vw;
+}
+.os44{
+    width: 100%;
+}
+.os45{
+    border-bottom: 1px solid #b8b8b8;
+    padding: 5vw  0;
+    font-family:axi400;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 1%;
+}
+.os5{
+    width: 100%;
+    margin: 20% 0;
+
+}
+.os53{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.os6{
+    width: 100%;
+    margin: 20% 0;
+}
+.os63{
+    display: grid;
+    grid-template-columns: auto ;
+    column-gap: 2%;
+    row-gap: 2%;
+   width: 100%;
+   margin-top: 5%;
+
+}
+.os66{
+    width: 100%;
+    font-size: 24px;
+    line-height:20px;
+    font-family: blk300;
+    font-weight: 600;
+    letter-spacing: 2%;
+    margin-top: 5%;
+}
+.os67{
+    width: 100%;
+    font-family:axi400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    margin-top:2%;
+}
+.ourfoot{
+    margin-top: 30%;
+    width: 100%;
+    padding: 5% 3%;
+    border-top: 1px solid #1E1E1E;
+}
+
+}

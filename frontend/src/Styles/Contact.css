@@ -1,0 +1,377 @@
+.cnt1{
+
+}
+.cnt2{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.cnt3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cnt3 a{
+     color: #1E1E1E;
+     text-decoration: none;
+}
+.cnt31{
+    letter-spacing: 2%;
+    font-family: axi400;
+    font-size: 1vw;
+    line-height: 1vw;
+    text-transform:uppercase;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.cnt32{
+    letter-spacing: 2%;
+    font-family: blk300;
+    font-size: 3.1vw;
+    line-height: 3.1vw;
+    text-transform:uppercase;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.cnt33{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.cnt34{
+    display: flex;
+    
+}
+.cnt34a{
+    display: flex;
+}
+  
+.cnt35{
+    width: 33%;
+    padding: 3% ;
+    border: 1px solid #000000;
+
+}
+.cnt35a{
+    width: 7.8vw;
+    height: 1.95vw;
+}
+.cnt35aa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cnt35a img{
+    width: 100%;
+}
+.cnt35b{
+    margin-top: 5%;
+    width: 100%;
+
+
+}
+.cnt35c{
+    font-family: axi400;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1vw;
+    width: 100%;
+ 
+
+}
+.cnt35d{
+    font-family: axi400;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1vw;
+ 
+
+}
+.cnt35e{
+    margin-top: 5%;
+
+
+}
+
+.cnt4{
+    width: 75%;
+    margin-left: 12.5%; 
+   margin-top: 5%;
+   display: flex;
+   margin-bottom: 5%;
+
+}
+.cnt41a{
+    letter-spacing: 1%;
+    font-family: blk300;
+    font-size: 2vw;
+    line-height:2vw;
+    font-weight: 400;
+}
+.cnt41b{
+    letter-spacing: 1%;
+    font-family: axi400;
+    font-size: 1vw;
+    line-height:1vw;
+    font-weight: 400;
+    margin-top: 1vw;
+    
+}
+.cnt41c{
+    margin-top: 1vw;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
+    row-gap: 2vw;
+}
+.cnt41d{
+    width: 23vw;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.cnt41d input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: axi400;
+    font-size: 1vw;
+    line-height:1vw;
+    font-weight: 400;
+    padding-bottom: 1vw;
+    color: #1E1E1E;
+
+}
+.cnt41d textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: axi400;
+    font-size: 1vw;
+    line-height:1vw;
+    font-weight: 400;
+    padding-bottom: 1vw;
+        color: #1E1E1E;
+
+}
+.cnt41d ::placeholder{
+    font-family: axi400;
+    font-size: 1vw;
+    line-height:1vw;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+.cnt41e{
+    margin-top: 3vw;
+}
+.cnt41e button{
+    background-color: #B0714E;
+    font-family: axi400;
+    font-size: 1vw;
+    line-height:1vw;
+    font-weight: 400;
+    letter-spacing: 2%;
+    color: #FFF2E2;
+    border: none;
+    outline: none;
+    width: 13vw;
+    height: 3.3vw;
+}
+.cnt42{
+    width: 100%;
+    padding-left: 15%;
+}
+.cnt42a{
+    letter-spacing: 1%;
+    font-family: blk300;
+    font-size: 2vw;
+    line-height:2vw;
+    font-weight: 400;
+}
+.cnt42b{
+    margin-top: 1vw;
+    width: 1.3vw;
+}
+.cnt42b img{
+    width: 100%;
+}
+.cnt41bb{
+    display: none;
+}
+@media(max-width:600px){
+    .cnt3{
+        border: 1px solid red;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .cnt31{
+        letter-spacing: 2%;
+        font-family: axi400;
+        font-size: 14px;
+        line-height: 14px;
+        text-transform:uppercase;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+    .cnt32{
+        letter-spacing: 2%;
+        font-family: blk300;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform:uppercase;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .cnt33{
+        width: 100%;
+        margin-left: 0;
+    }
+    .cnt34{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cnt34a{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cnt35{
+        width:100%;
+        padding: 5% ;
+        border: 1px solid #000000;
+    
+    }
+    .cnt35a{
+        width: 120px;
+        height: 30px;
+    }
+    .cnt35c{
+        font-family: axi400;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+     
+    
+    }
+    .cnt35d{
+        font-family: axi400;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+     
+    
+    }
+
+    .cnt4{
+        width: 100%;
+        margin-left: 0; 
+       margin-top: 10%;
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 0%;
+    
+    }
+    .cnt41a{
+        letter-spacing: 1%;
+        font-family: blk300;
+        font-size: 20px;
+        line-height:20px;
+        font-weight: 400;
+    }
+    .cnt41b{
+        display: none;
+    }
+    .cnt41bb{
+        display: block;
+        letter-spacing: 1%;
+        font-family: axi400;
+        font-size: 14px;
+        line-height:16px;
+        font-weight: 400;
+        margin-top: 5%;
+        
+    }
+    .cnt41c{
+        margin-top: 5%;
+    
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 1vw;
+        row-gap: 2vw;
+    }
+    .cnt41d{
+        padding: 3% 0;
+        margin-top: 2%;
+        width: 100%;
+        border-bottom: 1px solid #1e1e1e;
+    }
+    
+  
+.cnt41d input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: axi400;
+    font-size: 14px;
+    line-height:14px;
+    font-weight: 400;
+    padding-bottom: 1vw;
+}
+.cnt41d textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: axi400;
+    font-size: 14px;
+    line-height:14px;
+    font-weight: 400;
+    padding-bottom: 1vw;
+}
+.cnt41d ::placeholder{
+    font-family: axi400;
+    font-size: 14px;
+    line-height:14px;
+    font-weight: 400;
+}
+.cnt41e{
+    margin-top: 10%;
+}
+.cnt41e button{
+    background-color: #B0714E;
+    font-family: axi400;
+    font-size: 16px;
+    line-height:16px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    color: #FFF2E2;
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 50px;
+}    
+.cnt42{
+    width: 100%;
+    padding-left:0;
+    margin-top: 10%;
+}
+.cnt42a{
+    letter-spacing: 1%;
+    font-family: blk300;
+    font-size: 20px;
+    line-height:20px;
+    font-weight: 400;
+}
+.cnt42b{
+    margin-top: 1vw;
+    width: 20px;
+    height: 20px;
+}
+.cnt42b img{
+    width: 100%;
+}
+}
