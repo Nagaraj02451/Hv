@@ -19,7 +19,7 @@ const Navbar1 = () => {
          <a href='site' className='nav1a'>OUR STAYS</a>
          <a href='contact' className='nav1a'>CONTACT US</a>
        
-            <img onClick={toggle} src='Img/nav1.svg'></img>
+            <img className='u7y86tg76y' onClick={toggle} src='Img/nav1.svg'></img>
 
         </div>
 
