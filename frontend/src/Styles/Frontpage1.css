@@ -89,7 +89,8 @@ justify-content: center;
 
 }
 #uy6trf7856{
-    font-size: 0.8vw;
+    font-size:1vw;
+    font-weight: 600;
     font-family: axi400;
 }
 .ufygu p{
@@ -117,6 +118,7 @@ font-size: 1.5vw;
     height: 3.5vw;
     border: none;
     font-size: 0.9vw;
+    font-size: 600;
     font-family: axi400;
     text-align: center;
 
