@@ -15,6 +15,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.u7y86tg76y{
+    display: none;
+}
 .nav3{
     /* border: 1px solid red; */
      width: 50%;
@@ -72,5 +75,8 @@
 .nav3a img{
     width:90px;
     height: 65px;
+}
+.u7y86tg76y{
+    display: block;
 }
 }
