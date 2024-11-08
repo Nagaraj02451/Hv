@@ -229,9 +229,10 @@ font-size: 1.5vw;
         font-size: 13.1PX;
     }
     .uytfdu6ty input{
-        width: 48%;
+        width: 60%;
         height: 53px;
         font-size: 13.1px;
+        /* border: 1px solid red; */
         /* margin-top: 15px; */
     }
     #uy6trf7856{
@@ -255,5 +256,8 @@ font-size: 1.5vw;
     .iuy7tf7i{
         display: flex;
         column-gap: 3vw;
+    }
+    .yutdfrt6uy{
+        margin-top: 4vw;
     }
 }
