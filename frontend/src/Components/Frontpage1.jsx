@@ -76,7 +76,9 @@ const Frontpage1 = () => {
                            {/* <input type='text' placeholder='CHECK IN ' />
                            <input type='text' placeholder='CHECK OUT' /> */}
                         </div>
-                        <hr />
+                      <div className='u7tfg67'>
+                      <hr />
+                      </div>
                         <div className='uy6trf7856'>
                            <p id='uy6trf7856'>ADULTS</p>
                            <div className='iuy7tf7i'>
@@ -96,7 +98,7 @@ const Frontpage1 = () => {
 
                         </div>
 
-                      <a href='site' className='ytrfg7yu'>  <div className='uytedr756fg'><span className='uytrfd6u7tyf'></span>SEARCH</div>
+                      <a href='site' className='ytrfg7yu'>  <div className='uytedr756fg'><span className='uytrfd6u7tyf1'></span>SEARCH</div>
                       </a>
                      </div>
 
@@ -177,7 +179,7 @@ const Frontpage1 = () => {
 
    </div>
 
- <a href='site' className='ytrfg7yu'>  <div className='uytedr756fg'><span className='uytrfd6u7tyf'></span>SEARCH</div>
+ <a href='site' className='ytrfg7yu'>  <div className='uytedr756fg'><span className='uytrfd6u7tyf1'></span>SEARCH</div>
  </a>
 </div>
 
