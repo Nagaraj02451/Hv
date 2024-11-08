@@ -49,7 +49,7 @@
     line-height: 1vw;
     color: #E3E7EA;
     background-color: transparent;
-    /* border: 1.5px solid red; */
+    border: 1.5px solid #E3E7EA;
     width: 13vw;
     height: 2.9vw;
     display: flex;
@@ -124,6 +124,7 @@ font-size: 1.5vw;
 .uy6trf7856{
     display: flex;
     justify-content: space-between;
+  
 }
 .iuy7tf7i{
     display: flex;
@@ -146,10 +147,22 @@ font-size: 1.5vw;
 }
 
 .uytrfd6u7tyf{
+    width: 1.5vw;
+    height: 1.5vw;
+    background: url("../../public/Img/call.svg");
+    /* background-color: #D9D9D9; */
+   
+}
+.uytrfd6u7tyf1{
     width: 1.4vw;
     height: 1.4vw;
-    background-color: #D9D9D9;
+    background: url("../../public/Img/serr.svg");
+
+    /* background-color: #D9D9D9; */
    
+}
+.u7tfg67{
+    margin: 1.5vw 0;
 }
 .uytrf657fg{
     width: 1.6vw;
@@ -231,12 +244,17 @@ font-size: 1.5vw;
     .uytfdu6ty input{
         width: 60%;
         height: 53px;
-        font-size: 13.1px;
+        font-size: 13px;
         /* border: 1px solid red; */
         /* margin-top: 15px; */
     }
     #uy6trf7856{
         font-size: 13.1px;
+        /* align-items: center; */
+    }
+    .uy6trf7856{
+        font-size: 13.1px;
+        align-items: center;
     }
     .uytrf657fg{
         width: 24px;
@@ -249,6 +267,11 @@ font-size: 1.5vw;
         column-gap:8px;
     }
     .uytrfd6u7tyf{
+        width: 22px;
+        height: 22px;
+
+    }
+    .uytrfd6u7tyf1{
         width: 22px;
         height: 22px;
 
