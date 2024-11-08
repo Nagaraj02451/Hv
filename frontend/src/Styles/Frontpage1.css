@@ -49,9 +49,12 @@
     line-height: 1vw;
     color: #E3E7EA;
     background-color: transparent;
-    border: 1.5px solid #E3E7EA;
+    /* border: 1.5px solid red; */
     width: 13vw;
     height: 2.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: axi400;
 }
 .iuyrtf87iyug{
@@ -96,15 +99,27 @@ font-size: 1.5vw;
     display: flex;
     justify-content: space-between;
 }
-.uytfdu6ty input{
-    width: 10.2vw;
+.yutdfrt6uy{
+    width: 48%;
     margin-top: 1.2vw;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E3E7EA;
+    border: 1px solid #141414;
+}
+.uytfdu6ty input{
+    width: 60%;
+    background: transparent;
+    /* margin-top: 1.2vw; */
     height: 3.5vw;
+    border: none;
     font-size: 0.9vw;
     font-family: axi400;
     text-align: center;
-    background-color: #E3E7EA;
-    border: 1px solid #141414;
+
 }
 .uy6trf7856{
     display: flex;
@@ -199,6 +214,7 @@ font-size: 1.5vw;
     }
     .iuyrtf87iyug{
        font-size: 21px;
+       line-height: 21px;
        /* color: red; */
     }
     .ufygu{
@@ -213,10 +229,10 @@ font-size: 1.5vw;
         font-size: 13.1PX;
     }
     .uytfdu6ty input{
-        width: 145px;
+        width: 48%;
         height: 53px;
         font-size: 13.1px;
-        margin-top: 15px;
+        /* margin-top: 15px; */
     }
     #uy6trf7856{
         font-size: 13.1px;
@@ -235,5 +251,9 @@ font-size: 1.5vw;
         width: 22px;
         height: 22px;
 
+    }
+    .iuy7tf7i{
+        display: flex;
+        column-gap: 3vw;
     }
 }
