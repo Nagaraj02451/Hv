@@ -61,9 +61,20 @@ const Frontpage1 = () => {
       <option>TINYHOUSE </option>
                         </select>
                         <div className='uytfdu6ty'>
-                           
-                           <input type='text' placeholder='CHECK IN ' />
-                           <input type='text' placeholder='CHECK OUT' />
+                        <div className='yutdfrt6uy'>
+         {/* <div>ugyhf</div> */}
+      <span className='uytrfd6u7tyf'></span>
+      <input type='text' placeholder='CHECK IN ' />
+      {/* <input type='text' placeholder='CHECK OUT' /> */}
+   </div>
+                        <div className='yutdfrt6uy'>
+         {/* <div>ugyhf</div> */}
+      <span className='uytrfd6u7tyf'></span>
+      <input type='text' placeholder='CHECK OUT ' />
+      {/* <input type='text' placeholder='CHECK OUT' /> */}
+   </div>
+                           {/* <input type='text' placeholder='CHECK IN ' />
+                           <input type='text' placeholder='CHECK OUT' /> */}
                         </div>
                         <hr />
                         <div className='uy6trf7856'>
@@ -132,9 +143,19 @@ const Frontpage1 = () => {
       <option>TINYHOUSE </option>
    </select>
    <div className='uytfdu6ty'>
-      
+  
+   <div className='yutdfrt6uy'>
+         {/* <div>ugyhf</div> */}
+      <span className='uytrfd6u7tyf'></span>
       <input type='text' placeholder='CHECK IN ' />
-      <input type='text' placeholder='CHECK OUT' />
+      {/* <input type='text' placeholder='CHECK OUT' /> */}
+   </div>
+                        <div className='yutdfrt6uy'>
+         {/* <div>ugyhf</div> */}
+      <span className='uytrfd6u7tyf'></span>
+      <input type='text' placeholder='CHECK OUT ' />
+      {/* <input type='text' placeholder='CHECK OUT' /> */}
+   </div>
    </div>
    <hr />
    <div className='uy6trf7856'>
