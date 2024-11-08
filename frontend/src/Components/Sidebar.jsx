@@ -20,14 +20,10 @@ const Sidebar = ({ isopen, toggle }) => {
              <a href='/profile1' className='bar5' id='bar5'>CONTACT US</a>
      <hr className='bar9'></hr>
 
-              <a href='/destination2' className='bar6'  id='bar5'>Stories</a>
+              <a href='/destination2' className='bar6'  id='bar5'>LIST YOUR PROPERTY</a>
      <hr className='bar9'></hr>
 
-               <a href='/aboutus' className='bar7'  id='bar5'>About</a>
-     <hr className='bar9'></hr>
-
-               <a  href='/destination1'  className='bar8'  id='bar5'>More</a>
-     <hr className='bar9'></hr>
+          
           </div>
 
       </div>
