@@ -15,12 +15,12 @@ const Sidebar = ({ isopen, toggle }) => {
 
           <div className='bar2'>
              <a onClick={toggle} className='bar3'><img src='Img/close2.svg'></img></a>
-             <a href='/destination3' className='bar4' id='bar5'>OUR STAYS</a>
+             <a href='/site' className='bar4' id='bar5'>OUR STAYS</a>
      <hr className='bar9'></hr>
-             <a href='/profile1' className='bar5' id='bar5'>CONTACT US</a>
+             <a href='/contact' className='bar5' id='bar5'>CONTACT US</a>
      <hr className='bar9'></hr>
 
-              <a href='/destination2' className='bar6'  id='bar5'>LIST YOUR PROPERTY</a>
+              <a href='/property' className='bar6'  id='bar5'>LIST YOUR PROPERTY</a>
      <hr className='bar9'></hr>
 
           
