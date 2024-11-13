@@ -107,10 +107,16 @@ font-size: 1.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
+text-align: center;
     background-color: #E3E7EA;
     border: 1px solid #141414;
 }
+.react-datepicker-wrapper{
+   /* border: 1px solid red; */
+   width: 80%;
+   /* max-width: 50%; */
+}
+
 .uytfdu6ty input{
     width: 60%;
     background: transparent;
@@ -146,6 +152,9 @@ font-size: 1.5vw;
     letter-spacing: 0.1vw;
     color: #E3E7EA;
 
+}
+#uytr7iy{
+    /* border: 1px solid red; */
 }
 
 .uytrfd6u7tyf{
