@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import'../Styles/Bprocess.css'
 import Navbar1 from './Navbar1'
 import Footer2 from './Footer2'
 
 const Bprocess = () => {
+   const [room, setroom] = useState(0);
+   const [tax, settax] = useState(0);
+   const [total, settotal] = useState(0);
+//    const [room1, setroom1] = useState(6000);
+    const firstroom =()=>{
+        setroom(5000)
+        settax(1000)
+        settotal(6000)
+    }
+    const secondroom =()=>{
+        setroom(6000)
+        settax(1200)
+        settotal(7200)
+    }
   return (
     <>
     <div className='book1'>
@@ -26,11 +40,11 @@ const Bprocess = () => {
                                <hr className='bprohr1'></hr>
                                <div className='bpro52e'>
                                    <div className='bpro52f'>
-                                      <div className='bpro52g'>Rupees 6000 per night</div>
+                                      <div className='bpro52g'>Rupees 5000 per night</div>
                                       <div className='bpro52h'>Excluding Taxes & Fees</div>
                                    </div>
                                    <div className='bpro5i'>
-                                    <button>Select</button>
+                                    <button onClick={firstroom}>Select</button>
                                    </div>
                                </div>
                            </div>
@@ -51,7 +65,7 @@ const Bprocess = () => {
                                       <div className='bpro52h'>Excluding Taxes & Fees</div>
                                    </div>
                                    <div className='bpro5i'>
-                                    <button>Select</button>
+                                    <button onClick={secondroom}>Select</button>
                                    </div>
                                </div>
                            </div>
@@ -67,16 +81,16 @@ const Bprocess = () => {
                      <div className='book82'><div className='book83'>Date:</div><div className='book84'> Wed, Aug 9, 2023 - Thu, Aug 10, 2023</div></div>
                      <div className='book82'><div className='book83'>Guests: </div><div className='book84'>2 Adults</div></div>
                      <div className='book82'><div className='book83'>Stay:</div><div className='book84'> Tiny house</div></div>
-                     <div className='book82'><div className='book83'>Selected Room:</div><div className='book84'>  Double Room With Patio</div></div>
+                     <div className='book82'><div className='book83'>Selected Room:</div><div className='book84'>King Room with Forest View</div></div>
                      <div className='book82'><div className='book83'>Duration of the Stay: </div><div className='book84'> 1 Night</div></div>
                     
                      <div className='book85'>  
                         <div className='book86'><div className='book86a'><img src='Img/book2.svg'></img></div><div className='book86b'>Add a Room</div></div>
                         <hr className='bookhr1'></hr>
-                        <div className='book87'><div className='book87a'>Room's Charge</div><div className='book87b'>6000</div></div>
-                        <div className='book87 book871'><div className='book87a'>Taxes & GST</div><div className='book87b'>1200</div></div>
+                        <div className='book87'><div className='book87a'>Room's Charge</div><div className='book87b'>{room}</div></div>
+                        <div className='book87 book871'><div className='book87a'>Taxes & GST</div><div className='book87b'>{tax}</div></div>
                         <hr className='bookhr1'></hr>
-                        <div className='book88'><div className='book88a'>TOTAL</div><div className='book88b'>7200</div></div>
+                        <div className='book88'><div className='book88a'>TOTAL</div><div className='book88b'>{total}</div></div>
                     </div>
                 
 
