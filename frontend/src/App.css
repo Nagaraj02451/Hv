@@ -29,6 +29,9 @@ a{
 .ytdfuyt6fu{
   width: 29vw;
 }
+input:focus{
+  outline: none;
+}
 .yurft768uyg7ui{
   width: 25%;
   /* border: 1px solid red; */
