@@ -3,8 +3,12 @@ import '../Styles/Frontpage1.css'
 import Navbar1 from './Navbar1'
 import Footer1 from './Footer1'
 import Footer2 from './Footer2'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const Frontpage1 = () => {
+   const [date, setDate] = useState(new Date());
+   const [date1, setDate1] = useState(new Date());
    const [count, setcount] = useState(0);
    const [count1, setcount1] = useState(0);
    const increment =()=>{
@@ -64,13 +68,15 @@ const Frontpage1 = () => {
                         <div className='yutdfrt6uy'>
          {/* <div>ugyhf</div> */}
       <span className='uytrfd6u7tyf'></span>
-      <input type='text' placeholder='CHECK IN ' />
+      {/* <input type='text' placeholder='CHECK IN ' /> */}
+      <DatePicker id='uytr7iy' placeholderText='CHECK IN' selected={date} onChange={(date) => setDate(date)} />
       {/* <input type='text' placeholder='CHECK OUT' /> */}
    </div>
                         <div className='yutdfrt6uy'>
          {/* <div>ugyhf</div> */}
       <span className='uytrfd6u7tyf'></span>
-      <input type='text' placeholder='CHECK OUT ' />
+      {/* <input type='text' placeholder='CHECK OUT ' /> */}
+      <DatePicker placeholderText='CHECK OUT' selected={date1} onChange={(date) => setDate1(date)} />
       {/* <input type='text' placeholder='CHECK OUT' /> */}
    </div>
                            {/* <input type='text' placeholder='CHECK IN ' />
@@ -149,13 +155,15 @@ const Frontpage1 = () => {
    <div className='yutdfrt6uy'>
          {/* <div>ugyhf</div> */}
       <span className='uytrfd6u7tyf'></span>
-      <input type='text' placeholder='CHECK IN ' />
+      <DatePicker id='uytr7iy' placeholderText='CHECK IN' selected={date} onChange={(date) => setDate(date)} />
+
       {/* <input type='text' placeholder='CHECK OUT' /> */}
    </div>
                         <div className='yutdfrt6uy'>
          {/* <div>ugyhf</div> */}
       <span className='uytrfd6u7tyf'></span>
-      <input type='text' placeholder='CHECK OUT ' />
+      <DatePicker placeholderText='CHECK OUT' selected={date1} onChange={(date) => setDate1(date)} />
+
       {/* <input type='text' placeholder='CHECK OUT' /> */}
    </div>
    </div>
