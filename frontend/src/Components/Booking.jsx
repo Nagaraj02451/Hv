@@ -65,7 +65,7 @@ const Booking = () => {
                      <div className='book82'><div className='book83'>Date:</div><div className='book84'> Wed, Aug 9, 2023 - Thu, Aug 10, 2023</div></div>
                      <div className='book82'><div className='book83'>Guests: </div><div className='book84'>2 Adults</div></div>
                      <div className='book82'><div className='book83'>Stay:</div><div className='book84'> Tiny house</div></div>
-                     <div className='book82'><div className='book83'>Selected Room:</div><div className='book84'>  Double Room With Patio</div></div>
+                     <div className='book82'><div className='book83'>Selected Room:</div><div className='book84'>King Room with Forest View</div></div>
                      <div className='book82'><div className='book83'>Duration of the Stay: </div><div className='book84'> 1 Night</div></div>
                     
                      <div className='book85'>  
